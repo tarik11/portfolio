@@ -1,0 +1,28 @@
+.background__footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: #04040e;
+  display: flex;
+  justify-content: center;
+}
+
+.line__between__footer {
+  margin: 50px;
+  width: 50vw;
+  height: 2px;
+  background-color: white;
+}
+.icons__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.icon_img__footer {
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+}
+
+.icon_img__footer:hover {
+  transform: scale(1.5);
+}

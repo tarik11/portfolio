@@ -1,0 +1,49 @@
+.inline__navbar {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 70vw;
+  height: 20vh;
+
+  color: aliceblue;
+  position: fixed;
+  z-index: 200;
+}
+
+.button__navbar {
+  width: 30vw;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.git__black__navbar {
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 840px) {
+  .inline__navbar {
+    left: 65vw;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .inline__navbar {
+    left: 63vw;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .inline__navbar {
+    left: 55vw;
+  }
+  .button__navbar {
+    justify-content: space-between;
+  }
+  .git__black__navbar {
+    width: 30px;
+    height: 30px;
+  }
+}
